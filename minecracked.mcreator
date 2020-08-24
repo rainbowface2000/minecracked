@@ -18,6 +18,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "grickaxe"
+    },
+    {
+      "name": "Blick",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blick"
+    },
+    {
+      "name": "BlickAxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blick_axe"
     }
   ],
   "variable_elements": [],
@@ -25,7 +43,9 @@
   "language_map": {
     "en_us": {
       "item.minecracked.grickaxe": "Grickaxe",
-      "item.minecracked.grick": "Grick"
+      "item.minecracked.blick": "Blick",
+      "item.minecracked.grick": "Grick",
+      "item.minecracked.blick_axe": "Blick Axe"
     }
   },
   "workspaceSettings": {
