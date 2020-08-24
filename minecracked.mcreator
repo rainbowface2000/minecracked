@@ -50,7 +50,7 @@
       "name": "BlickOre",
       "type": "block",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "blick_ore"
@@ -59,7 +59,7 @@
       "name": "Grickore",
       "type": "block",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "grickore"
@@ -81,7 +81,9 @@
       "item.minecracked.grickaxe": "Grickaxe",
       "item.minecracked.blick": "Blick",
       "item.minecracked.grick": "Grick",
-      "item.minecracked.blick_axe": "Blick Axe"
+      "block.minecracked.blick_ore": "Blick Ore",
+      "item.minecracked.blick_axe": "Blick Axe",
+      "block.minecracked.grickore": "Grickore"
     }
   },
   "workspaceSettings": {
