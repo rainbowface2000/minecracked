@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecracked:blocks/blickore",
+    "up": "minecracked:blocks/blickore",
+    "north": "minecracked:blocks/blickore",
+    "east": "minecracked:blocks/blickore",
+    "south": "minecracked:blocks/blickore",
+    "west": "minecracked:blocks/blickore",
+    "particle": "minecracked:blocks/blickore"
+  }
+}
