@@ -1,0 +1,12 @@
+{
+  "group": "minecracked",
+  "type": "minecraft:smelting",
+  "experience": 25,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "minecracked:unknown_element"
+  },
+  "result": {
+    "item": "minecracked:blick"
+  }
+}
