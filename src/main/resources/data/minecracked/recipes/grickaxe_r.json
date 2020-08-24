@@ -1,0 +1,30 @@
+{
+  "group": "minecracked",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecracked:grick"
+    },
+    "1": {
+      "item": "minecracked:grick"
+    },
+    "2": {
+      "item": "minecracked:grick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecracked:grickaxe",
+    "count": 1
+  }
+}
