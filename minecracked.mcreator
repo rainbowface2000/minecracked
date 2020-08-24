@@ -81,6 +81,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blick_axe_recipe"
+    },
+    {
+      "name": "GrickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrickSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grick_sword"
     }
   ],
   "variable_elements": [],
@@ -91,6 +129,7 @@
       "item.minecracked.blick": "Blick",
       "item.minecracked.grick": "Grick",
       "block.minecracked.blick_ore": "Blick Ore",
+      "item.minecracked.grick_sword": "Grick Sword",
       "item.minecracked.blick_axe": "Blick Axe",
       "block.minecracked.grickore": "Grickore"
     }

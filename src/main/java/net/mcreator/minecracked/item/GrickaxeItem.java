@@ -3,13 +3,22 @@ package net.mcreator.minecracked.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.block.BlockState;
 
+import net.mcreator.minecracked.procedures.GrickaxeBlockDestroyedWithToolProcedure;
 import net.mcreator.minecracked.MinecrackedModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @MinecrackedModElements.ModElement.Tag
 public class GrickaxeItem extends MinecrackedModElements.ModElement {
@@ -27,7 +36,7 @@ public class GrickaxeItem extends MinecrackedModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 10f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {
@@ -35,7 +44,7 @@ public class GrickaxeItem extends MinecrackedModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantability() {
@@ -46,6 +55,22 @@ public class GrickaxeItem extends MinecrackedModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+			@Override
+			public boolean onBlockDestroyed(ItemStack itemstack, World world, BlockState bl, BlockPos pos, LivingEntity entity) {
+				boolean retval = super.onBlockDestroyed(itemstack, world, bl, pos, entity);
+				int x = pos.getX();
+				int y = pos.getY();
+				int z = pos.getZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					GrickaxeBlockDestroyedWithToolProcedure.executeProcedure($_dependencies);
+				}
+				return retval;
+			}
 		}.setRegistryName("grickaxe"));
 	}
 }

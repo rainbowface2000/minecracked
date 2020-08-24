@@ -11,8 +11,8 @@
       "value": "TOOLS"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 2,
-    "efficiency": 10.0,
+    "harvestLevel": 3,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 0,
     "damageVsEntity": 4.0,
@@ -21,6 +21,9 @@
     "hasGlow": false,
     "repairItems": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "GrickaxeBlockDestroyedWithTool"
+    }
   }
 }

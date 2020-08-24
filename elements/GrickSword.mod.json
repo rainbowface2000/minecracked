@@ -1,0 +1,29 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "grickswordt",
+    "customModelName": "Normal",
+    "name": "Grick Sword",
+    "specialInfo": [
+      "Stronger than diamond",
+      "but at the cost of efficiency."
+    ],
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
