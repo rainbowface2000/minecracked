@@ -38,6 +38,15 @@
       "registry_name": "blick_axe"
     },
     {
+      "name": "BlickSmelt",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blick_smelt"
+    },
+    {
       "name": "BlickOre",
       "type": "block",
       "sortid": 4,
@@ -47,13 +56,13 @@
       "registry_name": "blick_ore"
     },
     {
-      "name": "BlickSmelt",
-      "type": "recipe",
-      "sortid": 5,
+      "name": "Grickore",
+      "type": "block",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "blick_smelt"
+      "registry_name": "grickore"
     }
   ],
   "variable_elements": [],
@@ -63,7 +72,6 @@
       "item.minecracked.grickaxe": "Grickaxe",
       "item.minecracked.blick": "Blick",
       "item.minecracked.grick": "Grick",
-      "block.minecracked.blick_ore": "Blick Ore",
       "item.minecracked.blick_axe": "Blick Axe"
     }
   },

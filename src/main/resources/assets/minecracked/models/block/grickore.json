@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecracked:blocks/grick",
+    "up": "minecracked:blocks/grick",
+    "north": "minecracked:blocks/grick",
+    "east": "minecracked:blocks/grick",
+    "south": "minecracked:blocks/grick",
+    "west": "minecracked:blocks/grick",
+    "particle": "minecracked:blocks/grick"
+  }
+}

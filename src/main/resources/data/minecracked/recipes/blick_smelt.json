@@ -4,7 +4,7 @@
   "experience": 25,
   "cookingtime": 400,
   "ingredient": {
-    "item": "minecracked:blick_ore"
+    "item": "minecracked:unknown_element"
   },
   "result": {
     "item": "minecracked:blick"
