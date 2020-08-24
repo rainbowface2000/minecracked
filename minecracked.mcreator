@@ -9,12 +9,22 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "grick"
+    },
+    {
+      "name": "Grickaxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grickaxe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.minecracked.grickaxe": "Grickaxe",
       "item.minecracked.grick": "Grick"
     }
   },
