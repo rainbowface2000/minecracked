@@ -7,11 +7,11 @@ import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.minecracked.itemgroup.Minecraft2ItemGroup;
 import net.mcreator.minecracked.MinecrackedModElements;
 
 import java.util.List;
@@ -30,7 +30,7 @@ public class BlickItem extends MinecrackedModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
+			super(new Item.Properties().group(Minecraft2ItemGroup.tab).maxStackSize(64));
 			setRegistryName("blick");
 		}
 

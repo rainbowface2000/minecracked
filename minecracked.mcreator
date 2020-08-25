@@ -128,21 +128,104 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "test_2"
+    },
+    {
+      "name": "Thunder",
+      "type": "enchantment",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder"
+    },
+    {
+      "name": "Minecraft2",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecraft_2"
+    },
+    {
+      "name": "Lightning",
+      "type": "gun",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning"
+    },
+    {
+      "name": "LightningBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecracked.grickaxe": "Grickaxe",
-      "entity.minecracked.test_2": "Test 2",
       "item.minecracked.blick": "Blick",
       "item.minecracked.grick": "Grick",
-      "block.minecracked.blick_ore": "Blick Ore",
       "item.minecracked.grick_sword": "Grick Sword",
-      "item.minecracked.test_2": "Test 2 Spawn Egg",
       "item.minecracked.blick_axe": "Blick Axe",
-      "block.minecracked.grickore": "Grickore"
+      "block.minecracked.grickore": "Grickore",
+      "item.minecracked.grickaxe": "Grickaxe",
+      "block.minecracked.blick_ore": "Blick Ore"
     }
   },
   "workspaceSettings": {
