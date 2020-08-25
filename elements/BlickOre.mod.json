@@ -88,16 +88,21 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [
       {
         "value": "taiga_cold"
       },
       {
-        "value": "snowy_tundra"
+        "value": "taiga_cold_hills"
       },
       {
-        "value": "taiga_cold_hills"
+        "value": "snowy_mountains"
+      },
+      {
+        "value": "snowy_tundra"
       }
     ],
     "blocksToReplace": [
@@ -105,9 +110,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 30,
     "frequencyOnChunk": 3,
-    "minGenerateHeight": 63,
-    "maxGenerateHeight": 100
+    "minGenerateHeight": 40,
+    "maxGenerateHeight": 50
   }
 }
