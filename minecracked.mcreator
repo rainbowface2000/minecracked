@@ -130,15 +130,6 @@
       "registry_name": "test_2"
     },
     {
-      "name": "Thunder",
-      "type": "enchantment",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "thunder"
-    },
-    {
       "name": "Minecraft2",
       "type": "tab",
       "sortid": 9,
@@ -219,13 +210,16 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.minecracked.grickaxe": "Grickaxe",
+      "entity.minecracked.test_2": "Test 2",
       "item.minecracked.blick": "Blick",
       "item.minecracked.grick": "Grick",
       "item.minecracked.grick_sword": "Grick Sword",
+      "block.minecracked.blick_ore": "Blick Ore",
+      "item.minecracked.test_2": "Test 2 Spawn Egg",
       "item.minecracked.blick_axe": "Blick Axe",
       "block.minecracked.grickore": "Grickore",
-      "item.minecracked.grickaxe": "Grickaxe",
-      "block.minecracked.blick_ore": "Blick Ore"
+      "itemGroup.tabminecraft_2": "Minecraft 2"
     }
   },
   "workspaceSettings": {

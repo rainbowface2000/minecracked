@@ -1,9 +1,12 @@
 {
   "item.minecracked.grickaxe": "Grickaxe",
+  "entity.minecracked.test_2": "Test 2",
   "item.minecracked.blick": "Blick",
   "item.minecracked.grick": "Grick",
   "item.minecracked.grick_sword": "Grick Sword",
   "block.minecracked.blick_ore": "Blick Ore",
+  "item.minecracked.test_2": "Test 2 Spawn Egg",
   "item.minecracked.blick_axe": "Blick Axe",
-  "block.minecracked.grickore": "Grickore"
+  "block.minecracked.grickore": "Grickore",
+  "itemGroup.tabminecraft_2": "Minecraft 2"
 }
