@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Minecraft 2",
+    "icon": {
+      "value": "CUSTOM:Grick"
+    },
+    "showSearch": true
+  }
+}

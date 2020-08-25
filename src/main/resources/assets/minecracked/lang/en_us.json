@@ -2,8 +2,11 @@
   "item.minecracked.grickaxe": "Grickaxe",
   "item.minecracked.blick": "Blick",
   "item.minecracked.grick": "Grick",
+  "enchantment.minecracked.thunder": "Thunder",
   "block.minecracked.blick_ore": "Blick Ore",
   "item.minecracked.grick_sword": "Grick Sword",
   "item.minecracked.blick_axe": "Blick Axe",
-  "block.minecracked.grickore": "Grickore"
+  "block.minecracked.grickore": "Grickore",
+  "itemGroup.tabminecraft_2": "Minecraft 2",
+  "item.minecracked.lightning": "Lightning"
 }

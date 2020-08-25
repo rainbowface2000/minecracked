@@ -1,0 +1,42 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "smile",
+    "customModelName": "Normal",
+    "name": "Lightning",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Minecraft2"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.tnt.primed"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.LINGERING_POTION"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "LightningBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "LightningBulletHitsLivingEntity"
+    }
+  }
+}

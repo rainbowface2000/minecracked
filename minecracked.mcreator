@@ -119,6 +119,91 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "grick_sword"
+    },
+    {
+      "name": "Minecraft2",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecraft_2"
+    },
+    {
+      "name": "LightningBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lightning",
+      "type": "gun",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning"
+    },
+    {
+      "name": "Thunder",
+      "type": "enchantment",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder"
+    },
+    {
+      "name": "LightningBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -128,10 +213,13 @@
       "item.minecracked.grickaxe": "Grickaxe",
       "item.minecracked.blick": "Blick",
       "item.minecracked.grick": "Grick",
+      "enchantment.minecracked.thunder": "Thunder",
       "block.minecracked.blick_ore": "Blick Ore",
       "item.minecracked.grick_sword": "Grick Sword",
       "item.minecracked.blick_axe": "Blick Axe",
-      "block.minecracked.grickore": "Grickore"
+      "block.minecracked.grickore": "Grickore",
+      "itemGroup.tabminecraft_2": "Minecraft 2",
+      "item.minecracked.lightning": "Lightning"
     }
   },
   "workspaceSettings": {

@@ -8,13 +8,13 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.minecracked.procedures.GrickaxeBlockDestroyedWithToolProcedure;
+import net.mcreator.minecracked.itemgroup.Minecraft2ItemGroup;
 import net.mcreator.minecracked.MinecrackedModElements;
 
 import java.util.Map;
@@ -54,7 +54,7 @@ public class GrickaxeItem extends MinecrackedModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(Minecraft2ItemGroup.tab)) {
 			@Override
 			public boolean onBlockDestroyed(ItemStack itemstack, World world, BlockState bl, BlockPos pos, LivingEntity entity) {
 				boolean retval = super.onBlockDestroyed(itemstack, world, bl, pos, entity);
