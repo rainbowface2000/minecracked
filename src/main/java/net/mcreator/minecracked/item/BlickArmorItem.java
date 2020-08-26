@@ -29,7 +29,7 @@ public class BlickArmorItem extends MinecrackedModElements.ModElement {
 	@ObjectHolder("minecracked:blick_armor_boots")
 	public static final Item boots = null;
 	public BlickArmorItem(MinecrackedModElements instance) {
-		super(instance, 15);
+		super(instance, 18);
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class BlickArmorItem extends MinecrackedModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{1, 2, 3, 1}[slot.getIndex()];
+				return new int[]{2, 5, 6, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {

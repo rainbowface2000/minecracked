@@ -221,21 +221,6 @@
       }
     },
     {
-      "name": "BlickArmor",
-      "type": "armor",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blick_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
       "name": "Grickapple",
       "type": "food",
       "sortid": 16,
@@ -252,6 +237,21 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "grickapple_recipe"
+    },
+    {
+      "name": "BlickArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blick_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -259,13 +259,13 @@
   "language_map": {
     "en_us": {
       "entity.minecracked.test_2": "Test 2",
-      "item.minecracked.blick": "Blick",
+      "item.minecracked.blick": "Titanium",
       "item.minecracked.blick_armor_helmet": "Blick Helmet",
       "item.minecracked.grick": "Grick",
       "item.minecracked.grick_sword": "Grick Sword",
       "item.minecracked.grick_armor_chestplate": "Grick Body",
       "item.minecracked.blick_armor_leggings": "Blick Leggings",
-      "item.minecracked.blick_axe": "Blick Axe",
+      "item.minecracked.blick_axe": "Titanium Axe",
       "block.minecracked.grickore": "Grickore",
       "itemGroup.tabminecraft_2": "Minecraft 2",
       "item.minecracked.grick_armor_helmet": "Grick Helmet",
@@ -274,7 +274,7 @@
       "item.minecracked.grick_armor_boots": "Grick Boots",
       "item.minecracked.grick_armor_leggings": "Grick Leggings",
       "item.minecracked.blick_armor_chestplate": "Blick Body",
-      "block.minecracked.blick_ore": "Blick Ore",
+      "block.minecracked.blick_ore": "Titanium Ore",
       "item.minecracked.test_2": "Test 2 Spawn Egg",
       "item.minecracked.blick_armor_boots": "Blick Boots"
     }
