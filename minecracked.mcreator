@@ -2,24 +2,6 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "Grick",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "grick"
-    },
-    {
-      "name": "Grickaxe",
-      "type": "tool",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "grickaxe"
-    },
-    {
       "name": "Blick",
       "type": "item",
       "sortid": 3,
@@ -56,24 +38,6 @@
       "registry_name": "blick_ore"
     },
     {
-      "name": "Grickore",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "grickore"
-    },
-    {
-      "name": "GrickaxeR",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "grickaxe_r"
-    },
-    {
       "name": "BlickAxeRecipe",
       "type": "recipe",
       "sortid": 6,
@@ -81,44 +45,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blick_axe_recipe"
-    },
-    {
-      "name": "GrickaxeBlockDestroyedWithTool",
-      "type": "procedure",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "grickaxe_block_destroyed_with_tool",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "GrickSword",
-      "type": "tool",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "grick_sword"
     },
     {
       "name": "Test2",
@@ -206,21 +132,6 @@
       }
     },
     {
-      "name": "GrickArmor",
-      "type": "armor",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "grick_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
       "name": "BlickArmor",
       "type": "armor",
       "sortid": 15,
@@ -234,24 +145,6 @@
         "eb": true,
         "ec": true
       }
-    },
-    {
-      "name": "Grickapple",
-      "type": "food",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "grickapple"
-    },
-    {
-      "name": "GrickappleRecipe",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "grickapple_recipe"
     },
     {
       "name": "SoulFragmentItemInInventoryTick",
@@ -300,29 +193,20 @@
   "language_map": {
     "en_us": {
       "item.minecracked.blight_armor_helmet": "Angel Forged Helmet",
-      "item.minecracked.blick_armor_leggings": "Blick Leggings",
+      "item.minecracked.blick_armor_leggings": "Titanium Leggings",
       "itemGroup.tabminecraft_2": "Minecraft 2",
-      "item.minecracked.grick_armor_leggings": "Grick Leggings",
       "block.minecracked.blick_ore": "Blick Ore",
       "item.minecracked.blight_armor_boots": "Blight Armor Boots",
       "entity.minecracked.test_2": "Test 2",
       "item.minecracked.blick": "Blick",
-      "item.minecracked.blick_armor_helmet": "Blick Helmet",
-      "item.minecracked.grick": "Grick",
-      "item.minecracked.grick_sword": "Grick Sword",
-      "item.minecracked.grick_armor_chestplate": "Grick Body",
-      "block.minecracked.grickore": "Grickore",
+      "item.minecracked.blick_armor_helmet": "Titanium Helmet",
       "item.minecracked.blick_axe": "Blick Axe",
-      "item.minecracked.grick_armor_helmet": "Grick Helmet",
-      "item.minecracked.grickaxe": "Grickaxe",
-      "item.minecracked.grickapple": "Grickapple",
-      "item.minecracked.grick_armor_boots": "Grick Boots",
       "item.minecracked.blight_armor_chestplate": "Angel Forged Guard",
       "item.minecracked.soul_fragment": "Soul Fragment",
-      "item.minecracked.blick_armor_chestplate": "Blick Body",
+      "item.minecracked.blick_armor_chestplate": "Titanium Body",
       "item.minecracked.blight_armor_leggings": "Angel Forged Leggings",
       "item.minecracked.test_2": "Test 2 Spawn Egg",
-      "item.minecracked.blick_armor_boots": "Blick Boots"
+      "item.minecracked.blick_armor_boots": "Titanium Boots"
     }
   },
   "workspaceSettings": {

@@ -29,7 +29,7 @@ public class BlickArmorItem extends MinecrackedModElements.ModElement {
 	@ObjectHolder("minecracked:blick_armor_boots")
 	public static final Item boots = null;
 	public BlickArmorItem(MinecrackedModElements instance) {
-		super(instance, 18);
+		super(instance, 15);
 	}
 
 	@Override
