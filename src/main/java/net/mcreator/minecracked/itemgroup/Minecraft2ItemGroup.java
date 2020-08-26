@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.minecracked.item.GrickItem;
+import net.mcreator.minecracked.item.BlickItem;
 import net.mcreator.minecracked.MinecrackedModElements;
 
 @MinecrackedModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class Minecraft2ItemGroup extends MinecrackedModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(GrickItem.block, (int) (1));
+				return new ItemStack(BlickItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)
