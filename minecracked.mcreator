@@ -193,19 +193,19 @@
   "language_map": {
     "en_us": {
       "item.minecracked.blight_armor_helmet": "Angel Forged Helmet",
-      "item.minecracked.blick_armor_leggings": "Titanium Leggings",
-      "itemGroup.tabminecraft_2": "Minecraft 2",
-      "block.minecracked.blick_ore": "Blick Ore",
-      "item.minecracked.blight_armor_boots": "Blight Armor Boots",
       "entity.minecracked.test_2": "Test 2",
       "item.minecracked.blick": "Blick",
       "item.minecracked.blick_armor_helmet": "Titanium Helmet",
+      "item.minecracked.blick_armor_leggings": "Titanium Leggings",
+      "itemGroup.tabminecraft_2": "Minecraft 2",
       "item.minecracked.blick_axe": "Blick Axe",
       "item.minecracked.blight_armor_chestplate": "Angel Forged Guard",
       "item.minecracked.soul_fragment": "Soul Fragment",
       "item.minecracked.blick_armor_chestplate": "Titanium Body",
+      "block.minecracked.blick_ore": "Blick Ore",
       "item.minecracked.blight_armor_leggings": "Angel Forged Leggings",
       "item.minecracked.test_2": "Test 2 Spawn Egg",
+      "item.minecracked.blight_armor_boots": "Blight Armor Boots",
       "item.minecracked.blick_armor_boots": "Titanium Boots"
     }
   },
