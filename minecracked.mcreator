@@ -186,6 +186,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "soul_fragment"
+    },
+    {
+      "name": "OuchFoodEaten",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ouch_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
