@@ -1,6 +1,7 @@
 package net.mcreator.minecracked.procedures;
 
 import net.minecraft.util.DamageSource;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.minecracked.MinecrackedModElements;
@@ -19,6 +20,9 @@ public class SoulFragmentItemInInventoryTickProcedure extends MinecrackedModElem
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		entity.attackEntityFrom(DamageSource.OUT_OF_WORLD, (float) 0.1);
+		if ((Math.random() == 0.05)) {
+			entity.attackEntityFrom(DamageSource.GENERIC,
+					(float) (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) / 3));
+		}
 	}
 }
