@@ -5,15 +5,12 @@
     "renderType": 0,
     "texture": "blickaxe",
     "customModelName": "Normal",
-    "name": "Blick Axe",
-    "specialInfo": [
-      "Blick",
-      "and Axe."
-    ],
+    "name": "Titanium Axe",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Minecraft2"
     },
-    "toolType": "Spade",
+    "toolType": "Axe",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
