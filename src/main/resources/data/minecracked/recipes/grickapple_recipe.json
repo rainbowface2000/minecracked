@@ -1,0 +1,16 @@
+{
+  "group": "minecracked",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecracked:grick"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "result": {
+    "item": "minecracked:grickapple",
+    "count": 1
+  }
+}
